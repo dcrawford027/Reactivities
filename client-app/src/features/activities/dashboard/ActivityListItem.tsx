@@ -37,7 +37,7 @@ export default function ActivityListItem({activity}: Props) {
                     as={Link} 
                     to={`/activities/${activity.id}`}
                     color='teal'
-                    floated="right"
+                    floated='right'
                     content='View'
                 />
             </Segment>
